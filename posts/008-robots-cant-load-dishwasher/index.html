@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>&quot;Home robots are almost here&quot;? AI can walk a robot. It still can&#x27;t load your dishwasher. — AI Anchor Daily #008</title>
+<meta name="description" content="A new independent benchmark has AI models control a simulated humanoid robot through household tasks. Every model could navigate, but none reliably loaded a dishwasher or did laundry, so the &quot;robot butler&quot; is still some way off.">
+<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/"><img src="/assets/brand/logo-mark.svg" alt="" width="40" height="32"> AI Anchor <span>Daily</span></a>
+  <a href="/posts/">All posts</a>
+</header>
+<main class="post">
+  <p class="meta"><span class="pill">Myth vs Fact</span> #008 · November 26, 2026</p>
+  <h1>&quot;Home robots are almost here&quot;? AI can walk a robot. It still can&#x27;t load your dishwasher.</h1>
+  <p class="tldr"><strong>TL;DR</strong> A new independent benchmark has AI models control a simulated humanoid robot through household tasks. Every model could navigate, but none reliably loaded a dishwasher or did laundry, so the "robot butler" is still some way off.</p>
+  <article>
+<h2>The story</h2>
+<p><a href="https://artificialanalysis.ai/articles/aa-robotics-sim">Artificial Analysis</a>, an independent AI evaluation company, released <strong>AA-Robotics-Sim v0.1</strong>, a research-preview benchmark. Frontier language models write code to control a simulated Unitree G1 humanoid robot in NVIDIA Isaac Sim across 10 household and industrial tasks, such as playing a toy piano, loading a dishwasher, watering plants and navigating a warehouse. Each model practices for 5 episodes, keeps only its own notes and code, and is then scored on 10 new scenes per task.</p>
+<p>Nine models were tested. <strong>GPT-6.2 Astra</strong> led at 71.0, ahead of <strong>GPT-6.2 Sol</strong> at its maximum setting (62.6) and <strong>Claude Fable 5.2</strong> (57.5). Walking is effectively solved, since every model scored 100 on navigation, but grabbing and handling objects is not: no model reliably loaded the dishwasher and none finished the laundry.</p>
+<p>Separately, a new paper, <a href="https://arxiv.org/abs/2611.33010">Embodied AI Fails the Mirror Test</a>, put mirrors into robot test scenes. Every robot policy the authors tested performed worse, with average success drops of 10.8 to 56.7 percentage points depending on the policy (author-reported).</p>
+<h2>Why it matters</h2>
+<p>Robot demo videos make it look like household help is around the corner. Independent tests tell a more grounded story: moving around is getting easy, but <em>manipulation</em>, meaning picking things up, holding them gently and placing them exactly, is still the hard part. So are everyday surprises like mirrors and shiny surfaces.</p>
+<p>Caveats: AA-Robotics-Sim is simulation only, with 100 evaluation episodes per model, and its authors describe it as a preview. The mirror paper's numbers are author-reported.</p>
+  </article>
+  <section class="takeaway">
+    <h2>What this means for you</h2>
+<ul>
+<li><strong>Discount "robot butler next year" marketing.</strong> Ask whether a robot can handle objects reliably, not just walk.</li>
+<li><strong>Expect robots in structured places first,</strong> like warehouses and factories, before messy kitchens.</li>
+<li><strong>Your hands' skills are harder to automate than they look.</strong> That's good news for many hands-on jobs.</li>
+</ul>
+  </section>
+  <section class="sources">
+    <h2>Sources</h2>
+<ul>
+<li><a href="https://artificialanalysis.ai/articles/aa-robotics-sim">Artificial Analysis: AA-Robotics-Sim</a></li>
+<li><a href="https://arxiv.org/abs/2611.33010">arXiv: Embodied AI Fails the Mirror Test (2611.33010)</a></li>
+</ul>
+  </section>
+</main>
+<footer class="foot">
+  <p>Follow <a href="https://www.instagram.com/aianchordaily/">@aianchordaily</a> on Instagram, <a href="https://www.threads.net/@aianchordaily">Threads</a> and <a href="https://x.com/aianchordaily">X</a> · Your steady guide through the AI chaos</p>
+</footer>
+</body>
+</html>
